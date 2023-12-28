@@ -35,5 +35,6 @@ COPY --from=build-stage /app /app
 EXPOSE 8000
 
 # Command to run the application
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ADDED
+ ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
 
